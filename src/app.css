@@ -1,26 +1,57 @@
+@font-face {
+  font-family: 'Space Mono';
+  src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('fonts/SpaceMono-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('fonts/SpaceMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('fonts/SpaceMono-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Space Mono, Roboto Mono, Fira Mono;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 1);
+  background-color: #161616;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --mobile: 576px;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #fc822a;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #fc822a;
 }
 
 body {
@@ -29,15 +60,21 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  background: linear-gradient(
+    135deg, 
+    hsl(315, 100%, 3%) 0%, 
+    hsl(275, 96%, 4%) 25%, 
+    hsl(257, 96%, 5%) 50%, 
+    hsl(197, 92%, 6%) 75%, 
+    hsl(179, 98%, 7%) 100%
+  );
 }
 
 h1 {
+  font-weight: normal;
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-.card {
-  padding: 2em;
 }
 
 #app {
@@ -59,22 +96,15 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #fc822a;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (max-width: 576px) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    font-size: 12px;
   }
 }

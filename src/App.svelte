@@ -1,48 +1,37 @@
-<style>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.svelte:hover {
-  filter: drop-shadow(0 0 2em #ff3e00aa);
-}
-.read-the-docs {
-  color: #888;
-}
-</style>
-
 <script lang="ts">
-import svelteLogo from "./assets/svelte.svg";
-import Counter from "./lib/Counter.svelte";
+import { shuffle } from "./shuffle";
+import PictureCard from "./lib/PictureCard.svelte";
+import pictureData from "./assets/pics.json";
+
+shuffle(pictureData.pics);
 </script>
 
-<main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src="{svelteLogo}" class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+<style>
+  div.cardpanel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-  <div class="card">
-    <Counter />
+  h1 {
+    background: linear-gradient(90deg, #ff06c1 0%, #8705e4 25%, #4605ec 50%, #11b4f5 75%, #0dfdf9 100%);
+    font-weight: bold;
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+
+<main>
+  <h1>lucas shot this_</h1>
+  
+  <div class="cardpanel">
+    {#each pictureData["pics"] as pic}
+      <PictureCard src={pic.src} alt={pic.alt} title={pic.title} description={pic.description}></PictureCard>
+    {/each}
   </div>
 
   <p>
-    Check out <a
-      href="https://github.com/sveltejs/kit#readme"
-      target="_blank"
-      rel="noreferrer">SvelteKit</a
-    >, the official Svelte app framework powered by Vite!
+    made with &lt;3 by <a href="https://github.com/serramatutu" target="_blank" rel="noreferrer">@serramatutu</a>
   </p>
-
-  <p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p>
 </main>
