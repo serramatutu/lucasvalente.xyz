@@ -1,31 +1,30 @@
 @font-face {
-  font-family: 'Space Mono';
-  src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+  font-family: "Space Mono";
+  src: url("/fonts/SpaceMono-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Space Mono';
-  src: url('fonts/SpaceMono-Italic.ttf') format('truetype');
+  font-family: "Space Mono";
+  src: url("/fonts/SpaceMono-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Space Mono';
-  src: url('fonts/SpaceMono-Bold.ttf') format('truetype');
+  font-family: "Space Mono";
+  src: url("/fonts/SpaceMono-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Space Mono';
-  src: url('fonts/SpaceMono-BoldItalic.ttf') format('truetype');
+  font-family: "Space Mono";
+  src: url("/fonts/SpaceMono-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
-
 
 :root {
   font-family: Space Mono, Roboto Mono, Fira Mono;
@@ -62,11 +61,11 @@ body {
   min-height: 100vh;
 
   background: linear-gradient(
-    135deg, 
-    hsl(315, 100%, 3%) 0%, 
-    hsl(275, 96%, 4%) 25%, 
-    hsl(257, 96%, 5%) 50%, 
-    hsl(197, 92%, 6%) 75%, 
+    135deg,
+    hsl(315, 100%, 3%) 0%,
+    hsl(275, 96%, 4%) 25%,
+    hsl(257, 96%, 5%) 50%,
+    hsl(197, 92%, 6%) 75%,
     hsl(179, 98%, 7%) 100%
   );
 }

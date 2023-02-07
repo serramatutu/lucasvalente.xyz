@@ -1,101 +1,101 @@
 {
-    "lastUpdated": "2023-02-06T20:26:34.414Z",
-    "pics": [
-        {
-            "title": "Aurora",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/aurora.jpeg"
-        },
-        {
-            "title": "Brick door",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/brick-door.jpeg"
-        },
-        {
-            "title": "Bridge",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/bridge.jpeg"
-        },
-        {
-            "title": "Building gray",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/building-gray.jpeg"
-        },
-        {
-            "title": "Building orange",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/building-orange.jpeg"
-        },
-        {
-            "title": "Finland train",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/finland-train.jpeg"
-        },
-        {
-            "title": "Finland Border",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/finland-border.jpeg"
-        },
-        {
-            "title": "Gray Tvistevagen",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/gray-tvistevagen.jpeg"
-        },
-        {
-            "title": "Ham",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/ham.jpeg"
-        },
-        {
-            "title": "Lake",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/lake.jpeg"
-        },
-        {
-            "title": "Pedagoggrand",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/pedagoggrand.jpeg"
-        },
-        {
-            "title": "Sky orange",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/sky-orange.jpeg"
-        },
-        {
-            "title": "Sky pink",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/sky-pink.jpeg"
-        },
-        {
-            "title": "Stockholm porches",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/stockholm-porches.jpeg"
-        },
-        {
-            "title": "Stockholm sunset",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/stockholm-sunset.jpeg"
-        },
-        {
-            "title": "Tvistevagen",
-            "description": "Test",
-            "alt": "TODO",
-            "src": "/src/assets/tvistevagen.jpeg"
-        }
-    ]
+  "lastUpdated": "2023-02-06T20:26:34.414Z",
+  "pics": [
+    {
+      "title": "Aurora",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/aurora.jpeg"
+    },
+    {
+      "title": "Brick door",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/brick-door.jpeg"
+    },
+    {
+      "title": "Bridge",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/bridge.jpeg"
+    },
+    {
+      "title": "Building gray",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/building-gray.jpeg"
+    },
+    {
+      "title": "Building orange",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/building-orange.jpeg"
+    },
+    {
+      "title": "Finland train",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/finland-train.jpeg"
+    },
+    {
+      "title": "Finland Border",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/finland-border.jpeg"
+    },
+    {
+      "title": "Gray Tvistevagen",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/gray-tvistevagen.jpeg"
+    },
+    {
+      "title": "Ham",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/ham.jpeg"
+    },
+    {
+      "title": "Lake",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/lake.jpeg"
+    },
+    {
+      "title": "Pedagoggrand",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/pedagoggrand.jpeg"
+    },
+    {
+      "title": "Sky orange",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/sky-orange.jpeg"
+    },
+    {
+      "title": "Sky pink",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/sky-pink.jpeg"
+    },
+    {
+      "title": "Stockholm porches",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/stockholm-porches.jpeg"
+    },
+    {
+      "title": "Stockholm sunset",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/stockholm-sunset.jpeg"
+    },
+    {
+      "title": "Tvistevagen",
+      "description": "Test",
+      "alt": "TODO",
+      "src": "/pictures/tvistevagen.jpeg"
+    }
+  ]
 }
