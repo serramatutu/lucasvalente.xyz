@@ -1,0 +1,63 @@
+:root {
+  font-family: Space Mono, Roboto Mono, Fira Mono;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 1);
+  background-color: #161616;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --mobile: 576px;
+}
+
+@media (max-width: 576px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    hsl(315, 100%, 3%) 0%,
+    hsl(275, 96%, 4%) 25%,
+    hsl(257, 96%, 5%) 50%,
+    hsl(197, 92%, 6%) 75%,
+    hsl(179, 98%, 7%) 100%
+  );
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  font-weight: 500;
+  color: #fc822a;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #fc822a;
+}

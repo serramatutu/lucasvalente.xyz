@@ -40,7 +40,8 @@ img {
   transition: filter 0.2s;
 }
 
-img:hover, img:focus {
+img:hover,
+img:focus {
   filter: grayscale(0%);
 }
 
@@ -87,7 +88,9 @@ const adjustFocus = () => {
       ? 1
       : distance > windowHeight / 2
       ? 0
-      : 1 - 2 * (distance - focusRegionHeight/2) / (windowHeight - focusRegionHeight);
+      : 1 -
+        (2 * (distance - focusRegionHeight / 2)) /
+          (windowHeight - focusRegionHeight);
 
   img.style.filter = `grayscale(${(1 - focusPercent) * 100}%)`;
   div.style.transform = `scale(${1 + focusPercent * 0.05})`;
