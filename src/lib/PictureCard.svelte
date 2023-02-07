@@ -56,52 +56,55 @@ const MOBILE_BREAKPOINT = 576;
 
 export let src: string;
 export let alt: string;
+export let camera: string;
 
 export let title: string;
 export let description: string = "";
 
-let windowScrollY: number, 
-  windowWidth: number, 
+let windowScrollY: number,
+  windowWidth: number,
   windowHeight: number,
   img: HTMLImageElement,
   div: HTMLDivElement;
+
+let cardYRelativeToCenter;
+let focusPercent;
 
 const adjustFocus = () => {
   if (windowWidth > MOBILE_BREAKPOINT) {
     return;
   }
 
-  const imgY = img.getBoundingClientRect().y + img.getBoundingClientRect().height / 2;
-  const imgYRelativeToCenter = imgY - windowHeight / 2;
-  const focusRegionHeight = windowHeight/3;
+  const cardY =
+    div.getBoundingClientRect().y + div.getBoundingClientRect().height / 2;
+  cardYRelativeToCenter = cardY - windowHeight / 2;
+  const focusRegionHeight = windowHeight / 6;
 
-  const distance = Math.abs(imgYRelativeToCenter);
+  const distance = Math.abs(cardYRelativeToCenter);
 
-  const focusPercent = 
-    distance < focusRegionHeight/2 ?
-      1 :
-      distance > (windowHeight - focusRegionHeight)/2 ? 
-        0 : 
-        2 * distance / (windowHeight - focusRegionHeight);
+  focusPercent =
+    distance <= focusRegionHeight / 2
+      ? 1
+      : distance > windowHeight / 2
+      ? 0
+      : 1 - 2 * (distance - focusRegionHeight/2) / (windowHeight - focusRegionHeight);
 
   img.style.filter = `grayscale(${(1 - focusPercent) * 100}%)`;
   div.style.transform = `scale(${1 + focusPercent * 0.05})`;
-}
+};
 
 onMount(adjustFocus);
-
 </script>
 
-
-<svelte:window 
-  bind:innerWidth="{windowWidth}" 
+<svelte:window
+  bind:innerWidth="{windowWidth}"
   bind:innerHeight="{windowHeight}"
-  bind:scrollY="{windowScrollY}" 
+  bind:scrollY="{windowScrollY}"
   on:scroll="{adjustFocus}"
 />
 
-<div bind:this={div}>
-  <img src="{src}" alt="{alt}" bind:this={img} />
+<div bind:this="{div}">
+  <img src="{src}" alt="{alt}" bind:this="{img}" />
   <!-- <h2>{title}</h2>
   <p>
     {description}

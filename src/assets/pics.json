@@ -5,97 +5,113 @@
       "title": "Aurora",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/aurora.jpeg"
+      "src": "/pictures/aurora.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Brick door",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/brick-door.jpeg"
+      "src": "/pictures/brick-door.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Bridge",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/bridge.jpeg"
+      "src": "/pictures/bridge.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Building gray",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/building-gray.jpeg"
+      "src": "/pictures/building-gray.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Building orange",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/building-orange.jpeg"
+      "src": "/pictures/building-orange.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Finland train",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/finland-train.jpeg"
+      "src": "/pictures/finland-train.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Finland Border",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/finland-border.jpeg"
+      "src": "/pictures/finland-border.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Gray Tvistevagen",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/gray-tvistevagen.jpeg"
+      "src": "/pictures/gray-tvistevagen.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Ham",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/ham.jpeg"
+      "src": "/pictures/ham.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Lake",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/lake.jpeg"
+      "src": "/pictures/lake.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Pedagoggrand",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/pedagoggrand.jpeg"
+      "src": "/pictures/pedagoggrand.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Sky orange",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/sky-orange.jpeg"
+      "src": "/pictures/sky-orange.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Sky pink",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/sky-pink.jpeg"
+      "src": "/pictures/sky-pink.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Stockholm porches",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/stockholm-porches.jpeg"
+      "src": "/pictures/stockholm-porches.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Stockholm sunset",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/stockholm-sunset.jpeg"
+      "src": "/pictures/stockholm-sunset.jpeg",
+      "camera": "iPhone 13 Pro"
     },
     {
       "title": "Tvistevagen",
       "description": "Test",
       "alt": "TODO",
-      "src": "/pictures/tvistevagen.jpeg"
+      "src": "/pictures/tvistevagen.jpeg",
+      "camera": "iPhone 13 Pro"
     }
   ]
 }

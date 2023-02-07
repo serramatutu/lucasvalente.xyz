@@ -39,6 +39,7 @@ shuffle(pictureData.pics);
         alt="{pic.alt}"
         title="{pic.title}"
         description="{pic.description}"
+        camera="{pic.camera}"
       />
     {/each}
   </div>
